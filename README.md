@@ -18,4 +18,4 @@ Aqui podras recuperar tu cuenta con solo usar tu correo, en caso de que hayas ol
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e9a396b8-5d27-4e9d-aafc-dd4f0a478d21" />
 TAREAS
 EN este apartado podras ver, modificar y añadir tareas a tu base de datos(proximamente funcional)
-
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/79995318-ddd0-4efb-b62b-42ab09106185" />
