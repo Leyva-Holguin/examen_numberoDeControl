@@ -18,7 +18,7 @@ Una vez crees tu cuenta tendras que inciar la sesion con tu correo y tu contrase
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/71b8f5f1-2c61-48ca-9943-54110b687bf3" />
 RECUPERAR CUENTA:
 
-Aqui podras recuperar tu cuenta con solo usar tu correo, en caso de que hayas olvidado tu contrseña
+Aqui podras recuperar tu cuenta con solo usar tu correo, en caso de que hayas olvidado tu contraseña
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e9a396b8-5d27-4e9d-aafc-dd4f0a478d21" />
 TAREAS:
 
