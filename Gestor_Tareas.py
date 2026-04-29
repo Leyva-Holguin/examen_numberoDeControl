@@ -16,7 +16,6 @@ class GestorTareas:
             self.db = self.cliente['gestor_tareas']
             self.tareas = self.db['tareas']
             self.usuarios = self.db['usuarios']
-            # Crear índices necesarios
             self._crear_indices()
             print("✅ Conectado a MongoDB")
         except ConnectionFailure:

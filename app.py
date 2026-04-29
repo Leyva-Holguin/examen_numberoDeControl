@@ -75,14 +75,13 @@ def add():
 def registrar():
     if request.method == 'POST':
         nombre = request.form['nombre']
-        apellido = request.form['apellido']
         correo = request.form['correo']
         password = request.form['password']
         confirmPassword = request.form.get("confirmPassword")
         if password != confirmPassword:
             flash("Las contraseñas no coinciden", 'error')
             return render_template('registro.html')
-        usuario_id = gestor.crear_usuario(f"{nombre} {apellido}", correo, password)
+        usuario_id = gestor.crear_usuario(nombre, correo, password)
         if usuario_id:
             flash(f"Registro exitoso: {nombre}. Ahora puedes iniciar sesión.", 'success')
             return redirect(url_for('iniciar'))
