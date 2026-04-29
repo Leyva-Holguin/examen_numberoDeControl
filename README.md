@@ -6,7 +6,7 @@ Correo: 24308060610008@cetis61.edu.mx
 
 ![Fotografia](https://github.com/user-attachments/assets/c6f2bb0d-cd8a-4e3c-aad4-55b8e17fb6db)
 
-FUNCIONAMIENTO DE LA PAGINA/n
+FUNCIONAMIENTO DE LA PAGINA \n
 CREAR CUENTA
 En este apartado se puede crear la cuenta del usuario, se te pedira disitntos datos para guardar tu informacion
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b431a987-32d8-473a-bc50-83376341407c" />
