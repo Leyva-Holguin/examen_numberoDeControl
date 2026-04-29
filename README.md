@@ -10,7 +10,7 @@ FUNCIONAMIENTO DE LA PAGINA:
 
 CREAR CUENTA:
 
-En este apartado se puede crear la cuenta del usuario, se te pedira disitntos datos para guardar tu informacion
+En este apartado se puede crear la cuenta del usuario, se te pedira distintos datos para guardar tu informacion
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b431a987-32d8-473a-bc50-83376341407c" />
 INICIAR SESION:
 
