@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block titulo %}Gestor de Tareas{% endblock %}
+{% block contenido %}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="card border-0 shadow-lg rounded-4 overflow-hidden sticky-top" style="top: 80px;">
+                <div class="bg-primary p-3 text-center">
+                    <div class="mb-2">
+                        <i class="bi bi-plus-circle-fill" style="font-size: 40px; color: white;"></i>
+                    </div>
+                    <h4 class="text-white mb-0 fw-bold">Nueva tarea</h4>
+                    <p class="text-white-50 small mb-0">Añade una tarea rápidamente</p>
+                </div>
+                <div class="card-body p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold text-secondary">
+                                <i class="bi bi-pencil-fill me-1"></i>Nombre de la tarea
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0">
+                                    <i class="bi bi-check2-square text-secondary"></i>
+                                </span>
+                                <input type="text" class="form-control bg-light border-start-0" placeholder="Ej: Terminar el proyecto">
+                            </div>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary py-2 fw-bold">
+                                <i class="bi bi-plus-lg me-2"></i>Añadir tarea
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de tareas existentes -->
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+                <div class="bg-primary p-3 text-center">
+                    <div class="mb-2">
+                        <i class="bi bi-list-check" style="font-size: 40px; color: white;"></i>
+                    </div>
+                    <h4 class="text-white mb-0 fw-bold">Mis tareas</h4>
+                    <p class="text-white-50 small mb-0">Gestiona tus tareas pendientes</p>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th class="ps-4"><i class="bi bi-card-text me-1"></i>Tarea</th>
+                                    <th><i class="bi bi-tag me-1"></i>Estado</th>
+                                    <th><i class="bi bi-calendar-plus me-1"></i>Fecha inicio</th>
+                                    <th><i class="bi bi-calendar-check me-1"></i>Fecha fin</th>
+                                    <th class="text-center"><i class="bi bi-gear me-1"></i>Acciones</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
