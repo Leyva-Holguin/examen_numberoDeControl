@@ -26,5 +26,5 @@ En este apartado podras ver, modificar y añadir tareas a tu base de datos(proxi
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/79995318-ddd0-4efb-b62b-42ab09106185" />
 PERFIL:
 
-Arriba a la derecha podemos ver nuestra matricula/nombre si le das click te saldra un pequeño menu donde puedes ahcer configuraciones de perfil y cerrar tu sesion
+Arriba a la derecha podemos ver nuestra matricula/nombre si le das click te saldra un pequeño menu donde puedes hacer configuraciones de perfil y cerrar tu sesion
 <img width="304" height="142" alt="image" src="https://github.com/user-attachments/assets/a6504aaf-7001-4db7-97b3-60410fef0b06" />
